@@ -1,0 +1,24 @@
+.ListaGustos{
+  color:blueviolet;
+}
+.FuenteLista{
+  font-size: 20px;
+}
+h3{
+  font-size: 25px;
+  color:darkmagenta;
+}
+.Font{
+  font-family:Verdana;
+  color:darkorchid
+}
+
+.ratón{
+  width: 200px;
+  border-width: 5px;
+  border-color: darkgray;
+  border-style: solid;
+}
+.GatoAtigrado{
+  width: 400px;
+}
