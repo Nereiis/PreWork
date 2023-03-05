@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>AppDeGatos</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+  <!--Los encabezados "h.." son hasta 6-->
+    <h2 class="Font">AppDeGatos</h2>
+    <main>
+      <h3>Imágenes de Gatos</h3>
+
+        <!-- Como agregar enlaces internos: 
+        <a href="#P1">Párrafo 1</a>
+        <a href="#P2">Párrafo 2</a>
+        <a href="#P3">Párrafo 3</a>
+        <a href="#P4">Párrafo 4</a>-->
+
+      
+        <!-- Crear enlaces: -->
+        <p>Haz click aquí para ver más <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p> <!--rel se usa para prevenir ataques en enlaces externos-->
+        <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="Gato naranja recostado sobre su espalda."></a>
+
+        <hr><!--Linea Horizontal-->
+
+        <h3>¿Cuales son sus hobbies?</h3>
+        <p class="FuenteLista">Cosas que los gatos aman: </p>
+        <ul class="ListaGustos">zxzxcfdsf
+          <li>Menta Gatuna</li>
+          <li>Punteros Láser</li>
+          <li>Ratones de juguete</li>
+        </ul>
+        <img class="ratón" src="https://m.media-amazon.com/images/I/51-EG8QtZLL._AC_SX466_.jpg">
+
+        <p class="FuenteLista">Cosas que los gatos detestan: </p>
+        <ol class="ListaGustos">
+          <li>Tratamientos antipulgas</li>
+          <li>Truenos</li>
+          <li>Otros gatos</li>
+        </ol>
+        <img class="GatoAtigrado" src="Gato.jpg">
+
+        <!--Formularios-->
+        <form action="/enviar-respuesta">
+          <!--Botones-->
+          <p>¿Qué prefiere tu gatito?</p>
+          <label for="Interior">
+            <input id="Interior" type="radio" value="Interior" name="Interior-Exterior"> Interior
+          </label>
+          <br>
+          <label for="Exterior">
+            <input id="Exterior" type="radio" value="Exterior" name="Interior-Exterior"> Exterior
+          </label>
+          <br>
+          <div>
+            <p>¿Cómo es tu gatito?</p>
+            <label for="Cariñoso">
+              <input id="Cariñoso" type="checkbox" value="Cariñoso" name="Personalidad">Cariñoso
+            </label>
+            <label for="Revoltoso">
+              <input id="Revoltoso" type="checkbox" value="Revoltoso" name="Personalidad">Revoltoso
+            </label>
+            <label for="Independiente">
+              <input id= "Independiente" type="checkbox" value="Independiente" name="Personalidad">Independiente
+            </label>
+            <br>
+          </div>
+          <!--Rellenar texto-->
+          <input type="text" placeholder="URL de la foto" required>
+          <br> <br>
+          <button type="submit">Enviar</button>
+        </form>
+
+        <!-- Como agregar enlaces internos: 
+        <h3 id="P1">Párrafo 1</h3>
+        <p>En el Antiguo Egipto los gatos eran adorados y el rapto o la venta de estos animales podía ser penado con la muerte, pues su labor como cazadores de ratas era muy valorado.</p>
+
+        <h3 id="P2">Párrafo 2</h3>
+        <p>Un gato adulto solo maúlla para comunicarse con los seres humanos.</p>
+
+        <h3 id="P3">Párrafo 3</h3>
+        <p>Los bigotes de los gatos les sirven de indicador de espacio. Los usan para medir la distancia con otro objeto y orientarse.</p>
+
+        <h3 id="P4">Párrafo 4</h3>
+        <p>El cerebro de un gato se parece en un 90% al de un ser humano.</p> -->
+        
+        
+
+
+
+    </main>
+    <footer>
+      <p><small>Sin Derechos de Autor - <a href="https://www.freecodecamp.org/">FreeCodeCamp.org</a></small></p>  
+    </footer>
+  </body>
+</html>
