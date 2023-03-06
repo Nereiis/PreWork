@@ -1,0 +1,24 @@
+.Tipografía{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Tamaño{
+    font-size: 60px;
+}
+.Peso{
+    font-weight: 100;
+}
+.Color{
+    color:blueviolet;
+}
+.Subrayado{
+    text-decoration: dashed;
+}
+.Mayus{
+    text-transform: uppercase;
+}
+.Minus{
+    text-transform: lowercase;
+}
+.Capitalizado{
+    text-transform: capitalize;
+}
